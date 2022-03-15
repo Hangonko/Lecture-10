@@ -1,0 +1,87 @@
+@media(max-width: 1200px) {
+    .container {
+        max-width: 800px;
+    }
+
+    .Desc {
+        width: 433px;
+    }
+    
+    .Images {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .Images > img {
+        width: 300px;
+    }
+}
+
+@media(max-width: 950px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .Desc {
+        width: 233px;
+    }
+
+    .Images {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .Zetta_Desc {
+        max-width: 150px;
+    }
+
+    .Images > img {
+        width: 250px;
+    }
+}
+
+@media(max-width: 800px) {
+    .container {
+        max-width: 450px;
+    }
+    
+    .Desc {
+        display: none;
+    }
+
+    .Images {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Images > img {
+        width: 500px;
+    }
+
+    .Preheader {
+        text-align: center;
+    }
+
+    .Header {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .Header2 {
+        font-size: 32px;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .Light_Text {
+        display: none;
+    }
+
+    
+}
