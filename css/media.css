@@ -122,11 +122,15 @@
     .Right_Info {
         display: flex;
         margin: 0 auto;
-        padding-bottom: 30px;
+        padding: 15px;
     }
 
     .Zetta {
         font-size: 16px;
+    }
+
+    .Links_div {
+        margin-right: 10px;
     }
 
     .Links_Head {
@@ -168,5 +172,29 @@
     .Images > img {
         width: 300px;
         margin-bottom: 25px;
-    }   
+    }
+    
+    .Zetta {
+        font-size: 12px;
+    }
+
+    .Links_div {
+        margin-right: 10px;
+    }
+
+    .Links_Head {
+        font-size: 12px;    
+    }
+
+    .Zetta_Desc {
+        font-size: 10px;
+    }
+
+    .Links {
+        font-size: 10px;
+    }
+
+    .Line_Text {
+        font-size: 10px;
+    }
 }
