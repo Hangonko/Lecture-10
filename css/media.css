@@ -50,9 +50,16 @@
     .container {
         max-width: 450px;
     }
+
+    .Info {
+        flex-direction: column;
+        align-items: center;
+    }
     
     .Desc {
-        display: none;
+        width: 352px;
+        height: 120px;
+        margin-bottom: 15px;    
     }
 
     .Images {
