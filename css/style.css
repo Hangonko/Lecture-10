@@ -163,14 +163,9 @@
 /* Footer Start */
 
 .Footer {
-    height: 400px;
     background-color: #121212;
     margin-top: 5px;
     padding-top: 100px;
-}
-
-.Left_Info {
-
 }
 
 .Zetta {
@@ -178,7 +173,8 @@
     font-weight: bold;
     font-size: 24px;
     color: white;
-    margin-bottom: 33px;   
+    margin-bottom: 33px;
+      
 }
 
 .Zetta_Desc {
@@ -188,10 +184,33 @@
     font-size: 14px;
     color: #B1B1B1;
     margin-bottom: 32px;
+    
 }
 
 .Socials > img{
     margin-right: 10px;
+}
+
+.footer-Wrapper {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.Left_Info {
+    display: inline-flex;
+    max-width: 300px;
+    width: 100%;
+    flex-direction: column;  
+}
+
+.Right_Info {
+    padding: 15px;
+    display: inline-flex;
+    justify-content: space-between;
+    max-width: 545px;
+    width: 100%;
+    margin-left: 230px; 
 }
 
 .Links_Head {

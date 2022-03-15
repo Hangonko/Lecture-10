@@ -18,6 +18,13 @@
     .Images > img {
         width: 300px;
     }
+
+    .Right_Info {
+        max-width: 450px;
+        width: 100%;
+        margin: 0 auto;
+        margin-left: 45px; 
+    }
 }
 
 @media(max-width: 950px) {
@@ -38,11 +45,25 @@
     }
     
     .Zetta_Desc {
-        max-width: 150px;
+        max-width: 600px;
+        text-align: center;
     }
 
     .Images > img {
         width: 250px;
+    }
+
+    .Left_Info {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .Right_Info {
+        display: flex;
+        margin: 0 auto;
+        padding-bottom: 30px;
     }
 }
 
@@ -68,7 +89,7 @@
     }
     
     .Images > img {
-        width: 500px;
+        width: 450px;
         margin-bottom: 25px;
     }
 
@@ -87,17 +108,65 @@
         line-height: 35px;
     }
 
+    .Footer > .container {
+        max-width: 550px;
+    }
+
     .Left_Info {
-        display: block;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .Right_Info {
+        display: flex;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .Zetta {
+        font-size: 16px;
+    }
+
+    .Links_Head {
+        font-size: 16px;    
+    }
+
+    .Zetta_Desc {
+        font-size: 12px;
+    }
+
+    .Links {
+        font-size: 12px;
+    }
+
+    .Line_Text {
+        font-size: 12px;
     }
 
     .Light_Text {
         display: none;
     }
 
-    .Footer > .container {
-        max-width: 600px;
-    }
+    
+    
 
     
+
+    
+}
+
+@media(max-width: 500px) {
+    .Images > img {
+        width: 350px;
+        margin-bottom: 25px;
+    }   
+}
+
+@media(max-width: 410px) {
+    .Images > img {
+        width: 300px;
+        margin-bottom: 25px;
+    }   
 }
