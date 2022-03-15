@@ -69,6 +69,7 @@
     
     .Images > img {
         width: 500px;
+        margin-bottom: 25px;
     }
 
     .Preheader {
@@ -86,8 +87,16 @@
         line-height: 35px;
     }
 
+    .Left_Info {
+        display: block;
+    }
+
     .Light_Text {
         display: none;
+    }
+
+    .Footer > .container {
+        max-width: 600px;
     }
 
     
